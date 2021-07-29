@@ -1,0 +1,21 @@
+.container {
+	border-color: black;
+	border-style: solid;
+	border-width: 0.2px;
+}
+
+.row {
+	border-color: green;
+	border-style: solid;
+	border-width: 0.2px;
+}
+
+[class *= "col"] {
+	border-color: blue;
+	border-style: solid;
+	border-width: 0.2px;
+}
+
+h1 {
+	text-align: left;
+}
