@@ -1,20 +1,25 @@
 import React from 'react';
 import Page from '../components/page.js';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Image, Row } from 'react-bootstrap';
 import image_src from '../images/placeholder.jpg';
 
 class MainPage extends React.Component {
+  componentDidMount() {
+    console.log(this.props);
+  }
   render() {
     return (
-      <Page id={this.props.id}>
-        <Row as="h1">Welcome!</Row>
-        <Row>
+      <Page id="main_page">
+        <Row as="h1" className="mb-3">
+          Welcome!
+        </Row>
+        <Row className={this.props.row_gutter}>
           <Col md={4}>
             <Image src={image_src} rounded fluid />
           </Col>
-          <Col className="align-self-center">
-            <Row>
-              <Col as="section">
+          <Col md className="align-self-center">
+            <Row className={this.props.row_gutter}>
+              <Col md as="section" className="item-list">
                 <ul>
                   <li>1° item</li>
                   <li>2° item</li>
@@ -24,7 +29,7 @@ class MainPage extends React.Component {
                   <li>6° item</li>
                 </ul>
               </Col>
-              <Col as="section">
+              <Col md as="section" className="item-list">
                 <ul>
                   <li>1° item</li>
                   <li>2° item</li>

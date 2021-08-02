@@ -6,7 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 class MainBar extends React.Component {
   render() {
     return (
-      <Navbar expand="md" fixed="top" bg="dark" variant="dark" collapseOnSelect>
+      <Navbar
+        expand="md"
+        sticky="top"
+        bg="dark"
+        variant="dark"
+        collapseOnSelect
+      >
         <Container>
           <Navbar.Brand href="#home"> Home </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -14,10 +20,13 @@ class MainBar extends React.Component {
             id="responsive-navbar-nav"
             className="justify-content-end"
           >
-            <Nav variant="pills">
+            <Nav>
               <Nav.Link href="#main_page">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#description">Description</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#other">Other</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
