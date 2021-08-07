@@ -1,0 +1,11 @@
+{
+	"translations": {
+	"main": {
+		"title": "Bienvenido!",
+		"content": {
+			"1": "this is content",
+			"2": "this is content"
+			}
+		}
+	}
+}

@@ -17,6 +17,10 @@
 	border-width: 0.2px;
 } */
 
+#toggle-lenguaje {
+	visibility: hidden;
+	}
+
 h1 {
 	text-align: left;
 }
@@ -24,3 +28,4 @@ h1 {
 .item-list {
 	text-align: left;
 }
+
