@@ -8,13 +8,9 @@ import Projects from './pages/projects.js';
 import Other from './pages/other.js';
 import Contact from './pages/contact.js';
 
-const row_gutter = 'gy-3 gy-md-0';
-
 class App extends React.Component {
-  componentDidMount() {
-    alert('All image are placeholders\nwill be change later...');
-  }
   render() {
+    const row_gutter = 'gy-3 gy-md-0';
     return (
       <div className="App">
         <main>

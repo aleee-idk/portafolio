@@ -6,6 +6,27 @@
 			"1": "this is content",
 			"2": "this is content"
 			}
+		},
+		"description": {
+			"title": "Que puedo hacer:",
+			"content": {
+				"list_1": {
+				"1": "this is skill 1",
+				"2": "this is skill 2",
+				"3": "this is skill 3",
+				"4": "this is skill 4",
+				"5": "this is skill 5",
+				"6": "this is skill 6"
+			},
+			"list_2": {
+				"1": "this is skill 1",
+				"2": "this is skill 2",
+				"3": "this is skill 3",
+				"4": "this is skill 4",
+				"5": "this is skill 5",
+				"6": "this is skill 6"
+				}
+			}
 		}
 	}
 }

@@ -5,17 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import { withTranslation } from 'react-i18next';
 
 class MainBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { current_languaje: 'es', last_languaje: 'en' };
-  }
-
-  toggle_lenguaje = (event) => {
-    let last_languaje = this.state.current_languaje;
-    let current_languaje = event.target.value;
-    this.setState({ current_languaje, last_languaje });
-    this.props.i18n.changeLanguage(current_languaje);
+  cycle_lenguaje = () => {
+    let languages = this.props.i18n.languages;
+    // Cycle array
+    languages.push(languages.shift());
+    this.props.i18n.changeLanguage(languages);
   };
+
   render() {
     return (
       <Navbar
@@ -41,11 +37,8 @@ class MainBar extends React.Component {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
 
-            <Button
-              value={this.state.last_languaje}
-              onClick={(e) => this.toggle_lenguaje(e)}
-            >
-              Lenguaje {this.state.current_languaje}
+            <Button onClick={() => this.cycle_lenguaje()}>
+              Lenguaje {this.props.i18n.languages[1]}
             </Button>
           </Navbar.Collapse>
         </Container>

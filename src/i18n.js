@@ -14,15 +14,18 @@ i18n
       en: languageEN,
       es: languageES,
     },
-    /* default language when load the website in browser */
+    // default language when load the website in browser
     lng: 'es',
-    /* When react i18next not finding any language to as default in borwser */
-    fallbackLng: 'es',
-    /* debugger For Development environment */
+    fallbackLng: ['es', 'en'],
     debug: true,
+
+    // how is the json structured
     ns: ['translations'],
     defaultNS: 'translations',
     keySeparator: '.',
+
+    // Return Objects if selected
+    returnObjects: true,
     interpolation: {
       escapeValue: false,
     },
