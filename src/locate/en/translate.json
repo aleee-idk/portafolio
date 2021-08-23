@@ -1,7 +1,50 @@
 {
-	"translations": {
-	"main": {
-		"title": "Welcome!"
-		}
-	}
+  "translations": {
+    "main": {
+      "title": "Welcome!",
+      "content": {
+        "1": "this is content",
+        "2": "this is content"
+      }
+    },
+    "description": {
+      "title": "What I can do:",
+      "content": {
+        "list_1": {
+          "1": "Web Scrapping",
+          "2": "Backend web development",
+          "3": "Frontend web development",
+          "4": "Create and consume REST API's"
+        },
+        "list_2": {
+          "1": "Linux system administration",
+          "2": "Development of micro services",
+          "3": "Development of docker containers"
+        }
+      }
+    },
+    "skills": {
+      "title": "Skills:",
+	  "content": {
+		  "chart_dropdown": "Chart Type"
+			}
+    },
+    "other": {
+      "title": "Interest:",
+      "content": {
+        "list_1": {
+          "1": "Programming in general",
+          "2": "Cyber security",
+          "3": "Digital privacy",
+          "4": "System administration",
+          "5": "Self Hosting"
+        },
+        "list_2": {
+          "1": "GNU Linux",
+          "2": "Free and Open Source Software (FOSS)",
+          "3": "Video Game development"
+        }
+      }
+    }
+  }
 }

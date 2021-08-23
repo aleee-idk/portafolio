@@ -1,32 +1,50 @@
 {
-	"translations": {
-	"main": {
-		"title": "Bienvenido!",
-		"content": {
-			"1": "this is content",
-			"2": "this is content"
-			}
-		},
-		"description": {
-			"title": "Que puedo hacer:",
-			"content": {
-				"list_1": {
-				"1": "this is skill 1",
-				"2": "this is skill 2",
-				"3": "this is skill 3",
-				"4": "this is skill 4",
-				"5": "this is skill 5",
-				"6": "this is skill 6"
-			},
-			"list_2": {
-				"1": "this is skill 1",
-				"2": "this is skill 2",
-				"3": "this is skill 3",
-				"4": "this is skill 4",
-				"5": "this is skill 5",
-				"6": "this is skill 6"
-				}
-			}
-		}
-	}
+  "translations": {
+    "main": {
+      "title": "Bienvenido!",
+      "content": {
+        "1": "this is content",
+        "2": "this is content"
+      }
+    },
+    "description": {
+      "title": "Que puedo hacer:",
+      "content": {
+        "list_1": {
+          "1": "Web Scrapping",
+          "2": "Desarrollo Web Backend",
+          "3": "Desarrollo Web Frontend",
+          "4": "Crear y consumir REST API"
+        },
+        "list_2": {
+          "1": "Administración de Sistemas Linux",
+          "2": "Creación de microservicios",
+          "3": "Desarrollo en contenedores de Docker"
+        }
+      }
+    },
+    "skills": {
+      "title": "Habilidades:",
+      "content": {
+        "chart_dropdown": "Tipo de Gráfico"
+      }
+    },
+    "other": {
+      "title": "Intereses:",
+      "content": {
+        "list_1": {
+          "1": "Programación en general",
+          "2": "Ciber seguridad",
+          "3": "Privacidad digital",
+          "4": "Administración de sistemas",
+          "5": "Self Hosting"
+        },
+        "list_2": {
+          "1": "GNU Linux",
+          "2": "Software libre y de codigo abierto (FOSS)",
+          "3": "Desarrollo de videojuegos"
+        }
+      }
+    }
+  }
 }

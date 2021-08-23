@@ -14,14 +14,14 @@ class Description extends React.Component {
         <Row className={this.props.row_gutter}>
           <Col md as="section" className="item-list">
             <ul>
-              {Object.keys(t('description.content.list_1')).map((item) => (
+              {Object.values(t('description.content.list_1')).map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
           </Col>
           <Col md as="section" className="item-list">
             <ul>
-              {Object.keys(t('description.content.list_2')).map((item) => (
+              {Object.values(t('description.content.list_2')).map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
